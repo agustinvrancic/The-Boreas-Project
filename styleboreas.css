@@ -1,0 +1,338 @@
+@font-face {
+    font-family: fontboreas;
+    src: url(.//fonts/MADE_sunflower.otf);
+    font-style: normal;
+}
+
+/* Nav bar header */
+
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/FondCloudsBoreasajustada.jpg");
+}
+
+
+li a {
+    font-family: fontboreas;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16;
+    text-decoration: none;
+    color: black;
+
+}
+
+li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    
+}
+
+header{
+    margin-top: 10px;
+}
+
+.navLinks {
+    list-style: none;   
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    top: 50;
+}
+
+body header img {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 70vw;
+    height: 55px;
+}
+
+/* Contacto */ 
+
+.parrafoFrase {
+    font-family: fontboreas;
+    font-style: normal;
+    color: #1E1E1E;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    font-weight: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.parrafoMail {
+    font-family: fontboreas;
+    font-style: normal;
+    color: #1E1E1E;
+    position: absolute;
+    left: 550px;
+    top: 320px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.parrafoInsta {
+    font-family: fontboreas;
+    font-style: normal;
+    color: #1E1E1E;
+    position: absolute;
+    left: 630px;
+    top: 390px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-instalogo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 580px;
+    top: 395px;
+}
+
+/* Body Collections */ 
+
+.Cont-imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+.Cont-imagenes img{
+    width: 33.33%;
+    height: auto; 
+}
+
+.HoodieImg{
+    filter: blur(0);
+    transition: all 0.3s ease;
+}
+
+.HoodieImg:hover {
+    filter: blur(5px);
+}
+
+.TeeImg{
+    filter: blur(0);
+    transition: all 0.3s ease;
+}
+
+.TeeImg:hover {
+    filter: blur(5px);
+}
+
+.PantImg{
+    filter: blur(0);
+    transition: all 0.3s ease;
+}
+
+.PantImg:hover {
+    filter: blur(5px);
+}
+
+/* Body Shop */
+
+.MainShop {
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: border-box;
+}
+
+.todosLosProductos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Product {
+    background: #EBE3DA;
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.Product:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.ShirtSize {
+    width: 250px;
+    height: 329px;
+
+}
+
+.tituloProducto {
+    font-family: fontboreas;
+    font-size: 20px;
+    text-align:left ;
+}
+
+.precioProducto {
+    font-family: fontboreas;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.BtnProducto {
+    font-family: fontboreas;
+    color: #1E1E1E;
+    
+}
+
+/* FOrmulario Index*/
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: fontboreas;
+    font-size: 30px;
+    color: #1E1E1E;
+    padding-bottom: 10px; ;
+}
+
+article{
+    width: 300px;
+    height: 170px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.201);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+article div form input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.201);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    text-decoration: none;
+    
+}
+
+.IniciarSesion {
+    padding: 5px 10px;
+    margin: 10px;
+    font-family: fontboreas;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: #5C789E;
+    border-radius: 20px;
+    border: none;
+}
+
+.RegistrarseIndex {
+    padding: 5px 10px;
+    margin: 10px;
+    font-family: fontboreas;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: #5C789E;
+    border-radius: 20px;
+    border: none;
+}
+
+/*mobile first*/
+@media (max-width: 576px) {
+   
+    .navLinks li {
+        display: none;
+    }
+
+    body header img {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        width: 80vw;
+        height: auto;
+    }
+
+    main h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    article{
+        max-width: 70vw;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.201);
+        
+    }
+
+    article div form input {
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+        background-color: rgba(240, 248, 255, 0.201);
+        border: none;
+        border-radius: 20px;
+        height: 30px;
+        text-decoration: none;
+    }
+
+    section article div {
+        max-width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .IniciarSesion {
+        align-items: center;
+        padding: 5px 10px;
+        margin: 10px;
+        font-family: fontboreas;
+        color: whitesmoke;
+        font-size: 80%;
+        background-color: #5C789E;
+        border-radius: 20px;
+        border: none;
+    }
+    
+    .RegistrarseIndex {
+        padding: 5px 10px;
+        margin: 10px;
+        font-family: fontboreas;
+        color: whitesmoke;
+        font-size: 80%;
+        background-color: #5C789E;
+        border-radius: 20px;
+        border: none;
+    }
+}
