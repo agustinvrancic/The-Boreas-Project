@@ -58,13 +58,15 @@ body header img {
 
 /* Contacto */ 
 
+.MainContact {
+    margin-top: 10%;
+}
+
 .parrafoFrase {
     font-family: fontboreas;
     font-style: normal;
     color: #1E1E1E;
-    position: absolute;
-    left: 600px;
-    top: 250px;
+    justify-content: center;
     font-weight: normal;
     font-size: 30px;
     display: flex;
@@ -76,9 +78,7 @@ body header img {
     font-family: fontboreas;
     font-style: normal;
     color: #1E1E1E;
-    position: absolute;
-    left: 550px;
-    top: 320px;
+    justify-content: center;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -91,9 +91,7 @@ body header img {
     font-family: fontboreas;
     font-style: normal;
     color: #1E1E1E;
-    position: absolute;
-    left: 630px;
-    top: 390px;
+    justify-content: center;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -102,13 +100,6 @@ body header img {
     text-align: center;
 }
 
-.imagen-instalogo {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 580px;
-    top: 395px;
-}
 
 /* Body Collections */ 
 
@@ -335,4 +326,49 @@ article div form input {
         border-radius: 20px;
         border: none;
     }
+
+    body {
+        background-image: url("./img/FondCloudsBoreasajustada.jpg");
+        background-attachment: fixed;
+    }
+
+    .Cont-imagenes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Cont-imagenes img{
+        width: 100%;
+        height: auto; 
+    }
+    
+    .HoodieImg{
+        filter: blur(0);
+        transition: all 0.3s ease;
+    }
+    
+    .HoodieImg:hover {
+        filter: blur(5px);
+    }
+    
+    .TeeImg{
+        filter: blur(0);
+        transition: all 0.3s ease;
+    }
+    
+    .TeeImg:hover {
+        filter: blur(5px);
+    }
+    
+    .PantImg{
+        filter: blur(0);
+        transition: all 0.3s ease;
+    }
+    
+    .PantImg:hover {
+        filter: blur(5px);
+    }
+
+    
 }

@@ -1,0 +1,62 @@
+@media (max-width: 576px) {
+  .MainContact {
+    margin-top: 20%;
+  }
+  .parrafoFrase {
+    font-family: fontboreas;
+    font-style: normal;
+    color: #1E1E1E;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .parrafoMail {
+    font-family: fontboreas;
+    font-style: normal;
+    color: #1E1E1E;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .parrafoInsta {
+    font-family: fontboreas;
+    font-style: normal;
+    color: #1E1E1E;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}
+.Footer {
+  background-color: transparent;
+  padding: 100px 10px;
+}
+.Footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+.Footer_container h4 {
+  color: grey;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Footer_copy {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  color: grey;
+}
