@@ -1,52 +1,17 @@
-@media (max-width: 576px) {
-  .MainContact {
-    margin-top: 20%;
-  }
-  .parrafoFrase {
-    font-family: fontboreas;
-    font-style: normal;
-    color: #1E1E1E;
-    justify-content: center;
-    font-weight: normal;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  .parrafoMail {
-    font-family: fontboreas;
-    font-style: normal;
-    color: #1E1E1E;
-    justify-content: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  .parrafoInsta {
-    font-family: fontboreas;
-    font-style: normal;
-    color: #1E1E1E;
-    justify-content: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-}
 .Footer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(0, 1fr);
   background-color: transparent;
+  color: black;
   padding: 100px 10px;
 }
 .Footer_container {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
   gap: 50px;
+  grid-template-columns: 1fr;
 }
 .Footer_container h4 {
   color: grey;
@@ -54,9 +19,19 @@
   font-weight: bold;
   font-size: 20px;
 }
+.Footer_container-list li {
+  margin: 10px 0;
+}
+.Footer_container-list li a {
+  color: black;
+}
+.Footer_container-list li a:hover {
+  color: grey;
+  text-decoration: none;
+}
 .Footer_copy {
   margin-top: 20px;
   justify-content: center;
   text-align: center;
-  color: grey;
+  color: black;
 }

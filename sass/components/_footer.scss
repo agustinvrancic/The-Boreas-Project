@@ -1,18 +1,36 @@
 .Footer {
+    @include template-grid (1,0);
     background-color: transparent;
+    color: $color-primario;
     padding: 100px 10px;
 
     &_container {
         max-width: 1200px;
         margin: 0 auto;
-        display: flex;
+        display: grid;
         gap: 50px;
+        grid-template-columns: 1fr;
 
         h4{
-            color: grey;
+            color: $color-secundario;
             margin-bottom: 20px;
             font-weight: bold;
             font-size: 20px;
+        }
+
+        &-list {
+            li {
+             margin: 10px 0;  
+
+             a {
+                color: $color-primario;
+
+                &:hover{
+                    color: $color-secundario;
+                    text-decoration: none;
+                }
+             }
+            }  
         }
     }
 
@@ -20,6 +38,6 @@
         margin-top: 20px ;
         justify-content: center;
         text-align: center;
-        color: grey;
+        color: $color-primario;
     }
 }
