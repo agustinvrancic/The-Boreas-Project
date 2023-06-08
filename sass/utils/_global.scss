@@ -1,5 +1,5 @@
 @mixin template-grid ($columna, $fila) {
-    display: gridgt;
+    display: grid;
     grid-template-columns: repeat($columna, 1fr);
     grid-template-rows: repeat($fila, 1fr);  
    }
